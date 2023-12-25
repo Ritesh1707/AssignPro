@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignPro | Ace Your Assignments with Professional Help</title>
+    <link rel="stylesheet" href="finalStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+
+    <style>
+        body {
+            background-color: grey;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bodyCenter">
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li class="center"><a href="#">Services</a></li>
+                <li class="center"><a href="#">Pricing</a></li>
+                <li class="center"><a href="#">Contact-us</a></li>
+                <li class="center"><a href="#">About us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+
+    <section class="intro">
+        <div class="main1">
+            <p class="firstHalf">
+                AssignPro: Where Expertise Meets Excellence
+            </p>
+            <div class="secondHalf">
+                AssignPro delivers precision-crafted assignments, empowering students on their <br>
+                academic journey. Elevate your success with our commitment to excellence.
+            </div>
+            <div class="thirdhalf">
+                <button class="whatsapp-container" onclick="openWhatsApp()">
+                    <i class="fa fa-whatsapp fa-bounce fa-2xl" ></i>  Chat via WhatsApp
+                </button>
+
+                <button class="call-container">
+                    <i class="fa fa-phone fa-shake"></i>
+                    <a href="tel:">Call Now</a> <!-- Write Phone number-->
+                </button>
+                
+                <!-- to amintain space -->
+                <div></div>
+            </div>
+        </div>
+        
+
+        <!--WhatsApp JS  -->
+        <!--  -->
+        <!--  -->
+        <script>
+            function openWhatsApp() {
+                // Replace '123456789' with the actual phone number you want to chat with
+                var phoneNumber = '123456789';
+
+                // Create the WhatsApp URL
+                var whatsappURL = 'https://wa.me/' + phoneNumber;
+
+                // Open the WhatsApp chat in a new tab
+                window.open(whatsappURL, '_blank');
+            }
+        </script>
+        <!--  -->
+        <!--  -->
+        <!--  -->
+
+
+        <div class="main2">
+            <img src="./Create_a_photo_of_the_student_getting_an_assignm.jpg" alt="">
+        </div>
+    </section>
+
+
+
+    <section>
+        <p>Welcome to AssignPro</p>
+        <div class="img"></div>
+        <div class="img"></div>
+        <div class="img"></div>
+    </section>
+
+
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-list">
+            <div class="service-card">
+                <i class="fas fa-book-open icon"></i>
+                <p>Literature</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-flask icon"></i>
+                <p>Science</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <p>&copy; 2023 assignPro. All rights reserved.</p>
+    </footer>
+</div>
+</body>
+
+</html>

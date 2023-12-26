@@ -1,0 +1,132 @@
+/* Add the responsive CSS styles here */
+/* Common styles for all screen sizes */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  cursor: default;
+}
+
+.bodyCenter {
+  margin-inline: 8vw;
+}
+
+/* Responsive navigation styles */
+.nav-links {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 20px 15px;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.nav-links li {
+  list-style: none;
+  margin: 0 12px;
+}
+
+.nav-links li a {
+  position: relative;
+  color: #333;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 6px 0;
+  text-decoration: none;
+}
+
+.nav-links li a:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 0%;
+  background: #34efdf;
+  border-radius: 12px;
+  transition: all 0.4s ease;
+}
+
+.nav-links li a:hover:before {
+  width: 100%;
+}
+
+.nav-links li.center a:before {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Responsive introduction section */
+.intro {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-block: 50px;
+}
+
+.main1 {
+  text-align: center;
+}
+
+.firstHalf {
+  max-width: 80vw;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.secondHalf {
+  text-align: center;
+}
+
+.thirdhalf {
+  flex-direction: column;
+}
+
+/* Responsive WhatsApp and Call buttons */
+.whatsapp-container,
+.call-container {
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Responsive main2 image */
+.main2 img {
+  max-width: 100%;
+  height: auto;
+  background-color: #cdcdcd;
+}
+
+/* Responsive bodyCenter section */
+.bodyCenter {
+  margin-inline: 8vw;
+}
+
+/* Responsive services section */
+.services-list {
+  flex-wrap: wrap;
+}
+
+.service-card {
+  width: 100%;
+}
+
+/* Add more responsive styles as needed for other sections */
+
+@media screen and (min-width: 768px) {
+  /* Adjust styles for screens with a minimum width of 768px */
+  .bodyCenter {
+    margin-inline: 8vw 15vw;
+  }
+
+  .nav-links {
+    padding: 20px 30px;
+  }
+
+  /* Add more styles for larger screens if necessary */
+}
+
+@media screen and (min-width: 1200px) {
+  /* Adjust styles for screens with a minimum width of 1200px */
+  /* Add more styles for extra-large screens if necessary */
+}

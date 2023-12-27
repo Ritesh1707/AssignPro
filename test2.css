@@ -110,10 +110,11 @@
   /* Body center section styles */
   
   .bodyCenter {
-    padding: 50px
+    padding: 50px;
 /* Body center section styles (continued) */
+  }
 
-.bodyCenter .img {
+.bodyCenter img {
     display: inline-block;
     width: 25%;
     margin: 10px;

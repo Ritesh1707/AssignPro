@@ -4,12 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Professional assignment services for students. Get expert help for your assignments.">
+    <meta name="description"
+        content="Professional assignment services for students. Get expert help for your assignments.">
     <meta name="keywords" content="assignment, academic help, writing services, college, university">
     <meta name="author" content="RiteshNagpal">
 
     <title>assignPro | Ace Your Assignments with Professional Help</title>
     <link rel="stylesheet" href="finalStyle.css">
+    <link rel="stylesheet" href="media.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -22,216 +24,267 @@
 </head>
 
 <body>
-    <div>
-        <header>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="#">Home</a></li>
-                    <li class="center"><a href="#">Services</a></li>
-                    <li class="center"><a href="#">Pricing</a></li>
-                    <li class="center"><a href="#">Contact-us</a></li>
-                    <li class="center"><a href="#">About us</a></li>
-                </ul>
-            </nav>
-        </header>
-        <br>
 
-        <section class="intro ">
-            <div class="main1">
-                <p class="firstHalf">
-                    AssignPro: Where Expertise Meets Excellence
-                </p>
-                <div class="secondHalf">
-                    AssignPro delivers precision-crafted assignments, empowering students on their <br>
-                    academic journey. Elevate your success with our commitment to excellence.
-                </div>
-                <div class="thirdhalf">
-                    <button class="whatsapp-container" onclick="openWhatsApp()">
-                        <i class="fa-brands fa-whatsapp"></i><i class="fa-brands fa-whatsapp fa-beat fa-2xl">
-                            &nbsp;&nbsp;</i> Chat via WhatsApp
-                    </button>
+    <header>
+        <nav class="newNav ">
+            <a href="indexFinal.html">
+                <img src="assests/logo.png" alt="">
+            </a>
+            <ul>
+                <li class="center"><a href="#">About us</a></li>
 
-                    <button class="call-container">
-                        <i class="fa-solid fa-phone fa-shake"></i>
-                        <a href="tel:">&nbsp;&nbsp;Call Now</a> <!-- Write Phone number-->
-                    </button>
+                <li><a href="">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Contact-us</a></li>
+                <li><a href="">About-us</a></li>
+            </ul>
+            <a href="#" class="navToggle">
+                <i class="fa-solid fa-bars fa-2xl"></i>
+            </a>
+        </nav>
+    </header>
 
-                    <!-- to amintain space -->
-                    <div></div>
-                </div>
+
+    <section class="intro ">
+        <div class="main1">
+            <p class="firstHalf">
+                AssignPro: Where Expertise Meets Excellence
+            </p>
+            <div class="secondHalf">
+                AssignPro delivers precision-crafted assignments, empowering students on their <br>
+                academic journey. Elevate your success with our commitment to excellence.
             </div>
+            <div class="thirdhalf">
+                <button class="whatsapp-container" onclick="openWhatsApp()">
+                    <i class="fa-brands fa-whatsapp fa-beat fa-2xl">
+                        &nbsp;&nbsp;</i> Chat via WhatsApp
+                </button>
 
+                <button class="call-container">
+                    <i class="fa-solid fa-phone fa-shake"></i>
+                    <a href="tel:">&nbsp;&nbsp;Call Now</a> <!-- Write Phone number-->
+                </button>
 
-            <!--WhatsApp JS  -->
-            <!--  -->
-            <!--  -->
-            <script>
-                function openWhatsApp() {
-                    // Replace '123456789' with the actual phone number you want to chat with
-                    var phoneNumber = '123456789';
-
-                    // Create the WhatsApp URL
-                    var whatsappURL = 'https://wa.me/' + phoneNumber;
-
-                    // Open the WhatsApp chat in a new tab
-                    window.open(whatsappURL, '_blank');
-                }
-            </script>
-            <!--  -->
-            <!--  -->
-            <!--  -->
-
-
-            <div class="main2">
-                <!-- <img src="./assests/Main.jpg" alt="Could not load image"> -->
-                <img src="Designer.png" alt="">
-
+                <!-- to amintain space -->
+                <div></div>
             </div>
-        </section>
-
-
-
-        <section class="content bodyCenter">
-            <h2>Get Expertly Crafted Assignments for Academic Success</h2>
-            <p>Save Time and Effort by Outsourcing Your Assignments to Professionals</p>
-            <p>At AssignPro, we understand the challenges that college and university students face when it comes to completing their assignments. The pressure of multiple deadlines, complex subjects, and heavy workloads can be overwhelming. That's why we are here to help.</p>
-        </section>
-
-        <hr>    
-
-        <section class="services bodyCenter" id="services">
-            <h2>Our Services</h2>
-            <div class="serviceSection">
-                <div class="services-list">
-                    <div class="service-card">
-                        <img src="assests/Coding1.jpg" alt="">
-                        <p>Coding</p>
-                    </div>
-                    <div class="service-card">
-                        <img src="./assests/Content-Marketing.jpg" alt="">
-                        <p>Content Writing</p>
-                    </div>
-                    <div class="service-card">
-                        <img src="assests/services3.jpg" alt="">
-                        <p>Article Writing</p>
-                    </div>
-                </div>
-
-                <div class="services-list">
-                    <div class="service-card">
-                        <img src="assests/webservices1.jpg" alt="">
-                        <p>Web Conetent services</p>
-                    </div>
-                    <div class="service-card">
-                        <img src="assests/webservice2.jpg" alt="">
-                        <p>SEO content Writing</p>
-                    </div>
-                    <div class="service-card">
-                        <img src="assests/webservice3.jpg" alt="">
-                        <p>Blog Writing Services</p>
-                    </div>
-                </div>
-
-                <div class="services-list">
-                    <div class="service-card">
-                        <img src="assests/business1.jpg" alt="">
-                        <p>Business writing</p>
-                    </div>
-                    <div class="service-card">
-                        <img src="assests/business2.jpg" alt="">
-                        <p>Social Content writing</p>
-                    </div>
-                    <div>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <hr>
-
-        <section class="bodyCenter">
-            <h2 class="whyUsHeading bodyCenter">Why you should buy from us</h2>
-            <div class="whyUs">
-                <div class="box">
-                    <img src="./assests/check.png" alt="">
-                    <h3>Guarantee</h3>
-                    <p>At assignPro, we guarantee that our assignments are original, well-researched, and
-                        plagiarism-free.We
-                        provide a guarantee on all our work. If for any reason you are not satisfied with the final
-                        product,
-                        we will make it</p>
-                </div>
-                <div class="box">
-                    <img src="assests/book-stack.png" alt="">
-                    <h3>Uniqueness</h3>
-                    <p>At assignPro, we don’t just sell assignments. We create custom solutions that match your specific
-                        needs and preferences. Our writers are experts in various fields and can handle any topic or
-                        level
-                        of difficulty.</p>
-                </div>
-                <div class="box">
-                    <img src="assests/group.png" alt="">
-                    <h3>Experienced staff</h3>
-                    <p>We are a team of experienced and professional writers who have been in the academic writing
-                        industry
-                        for more than 5 years. We have helped thousands of students achieve their academic goals by
-                        delivering original, well-written, and timely assignments. Our clients appreciate our
-                        dedication,
-                        reliability, and attention to detail.</p>
-                </div>
-                <div class="box">
-                    <img src="assests/handShake2.png" alt="">
-                    <h3>Trustworthy</h3>
-                    <p>We are a team of experienced writers who have worked in various industries and understand the
-                        intricacies of your business.</p>
-                </div>
-            </div>
-        </section>
-
-
-
-        <footer>
-            <div class="bodyCenter footerPart">
-                <ul>
-                    <li><a href="#"></i> Home</a></li>
-                    <li><a href="/aboutus">About Us</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="/contactus">Contact Us</a></li>
-                    <li><a href="">Privacy Policy</a></li>
-                    <li><a href="termsandcondition">Terms and Condition</a></li>
-                </ul>
-                <ul>
-                    <li class="footerAction">
-                        <button class="whatsapp-container" onclick="openWhatsApp()">
-                           <i class="fa-brands fa-whatsapp fa-beat fa-2xl">
-                                &nbsp;&nbsp;</i> Chat via WhatsApp
-                        </button>
-                        <button class="call-container">
-                            <i class="fa-solid fa-phone fa-shake"></i>
-                            <a href="tel:">&nbsp;&nbsp;</a>Call now <!-- Write Phone number-->
-                        </button>
-                        <button class="mail-container">
-                            <i class="fas fa-mail-bulk"></i>
-                            <a href="mailto:">&nbsp;&nbsp;</a>Mail-Us<!--Write mail id-->
-                            
-                        </button>
-
-                        <!-- to amintain space -->
-                    </li>
-                </ul>
-                <ul>
-                    <h2>Social</h2>
-                    <li> <i class="fa fa-facebook" aria-hidden="true"></i> </li>
-                    <li> <i class="fa fa-instagram" aria-hidden="true"></i> </li>
-
-                </ul>
-            </div>
-
-        </footer>
-        <div class="lastfooter ">
-            <p class="bodyCenter">&copy; 2023 assignPro. All rights reserved.</p>
         </div>
+
+
+        <!--WhatsApp JS  -->
+        <!--  -->
+        <!--  -->
+        <script>
+            function openWhatsApp() {
+                // Replace '123456789' with the actual phone number you want to chat with
+                var phoneNumber = '123456789';
+
+                // Create the WhatsApp URL
+                var whatsappURL = 'https://wa.me/' + phoneNumber;
+
+                // Open the WhatsApp chat in a new tab
+                window.open(whatsappURL, '_blank');
+            }
+        </script>
+        <!--  -->
+        <!--  -->
+        <!--  -->
+
+
+        <!-- <div class="main2">
+            <img src="./assests/Main.jpg" alt="Could not load image">
+        </div> -->
+
+        <img class="main2" src="MainINTRO.png" alt="">
+    </section>
+
+
+
+    <section class="content bodyCenter">
+        <h2>Get Expertly Crafted Assignments for Academic Success</h2>
+        <p>Save Time and Effort by Outsourcing Your Assignments to Professionals</p>
+        <p>At AssignPro, we understand the challenges that college and university students face when it comes to
+            completing their assignments. The pressure of multiple deadlines, complex subjects, and heavy workloads
+            can be overwhelming. That's why we are here to help.</p>
+    </section>
+
+    <hr>
+
+    <section class="services bodyCenter" id="services">
+        <h2>Our Services</h2>
+        <div class="serviceSection">
+            <div class="service-card">
+                <img src="assests/Coding1.jpg" alt="">
+                <p>Coding</p>
+            </div>
+            <div class="service-card">
+                <img src="./assests/Content-Marketing.jpg" alt="">
+                <p>Content Writing</p>
+            </div>
+            <div class="service-card">
+                <img src="assests/services3.jpg" alt="">
+                <p>Article Writing</p>
+            </div>
+
+            <div class="service-card">
+                <img src="assests/webservices1.jpg" alt="">
+                <p>Web Conetent services</p>
+            </div>
+            <div class="service-card">
+                <img src="assests/webservice2.jpg" alt="">
+                <p>SEO content Writing</p>
+            </div>
+            <div class="service-card">
+                <img src="assests/webservice3.jpg" alt="">
+                <p>Blog Writing Services</p>
+            </div>
+
+            <div class="service-card">
+                <img src="assests/business1.jpg" alt="">
+                <p>Business writing</p>
+            </div>
+            <div class="service-card">
+                <img src="assests/business2.jpg" alt="">
+                <p>Social Content writing</p>
+            </div>
+            <div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="question">
+        <div class="commomQuestion">
+            <span>FAQ</span>
+            <h3>Common questions</h3>
+            <p>Here are some of the most common questions that we get.</p>
+        </div>
+        <div class="realQuestion">
+            <h3>How does Assign Pro work?</h3>
+            <p>AssignPro is an online platform where students can purchase pre-written assignments. Simply browse
+                through our
+                collection, select the assignment you need, and proceed to checkout.</p>
+
+            <h3>Are the assignments original and plagiarism-free?</h3>
+            <p>Yes, all our assignments are written by professional writers and are guaranteed to be original and
+                plagiarism-free. We
+                have strict quality control measures in place to ensure the highest level of academic integrity.</p>
+
+            <h3>Is my personal information safe with AssignPro?</h3>
+            <p>Absolutely! We prioritize the security and confidentiality of our customers' personal information. We
+                have robust
+                data protection measures in place to safeguard your data and ensure it is not shared with any third
+                parties.</p>
+
+            <h3>What payments methods do you acept?</h3>
+            <p>We accept various payment methods, including credit/debit cards, PayPal, and other secure online
+                payment gateways.
+                You can choose the most convenient option during the checkout process.</p>
+        </div>
+    </section>
+
+
+
+    <!-- WhyUs -->
+    <section class="bodyCenter">
+        <h2 class="whyUsHeading bodyCenter">Why you should buy from us</h2>
+        <div class="whyUs">
+            <div class="box">
+                <img src="./assests/check.png" alt="">
+                <h3>Guarantee</h3>
+                <p>At assignPro, we guarantee that our assignments are original, well-researched, and
+                    plagiarism-free.We
+                    provide a guarantee on all our work. If for any reason you are not satisfied with the final
+                    product,
+                    we will make it</p>
+            </div>
+            <div class="box">
+                <img src="assests/book-stack.png" alt="">
+                <h3>Uniqueness</h3>
+                <p>At assignPro, we don’t just sell assignments. We create custom solutions that match your specific
+                    needs and preferences. Our writers are experts in various fields and can handle any topic or
+                    level
+                    of difficulty.</p>
+            </div>
+            <div class="box">
+                <img src="assests/group.png" alt="">
+                <h3>Experienced staff</h3>
+                <p>We are a team of experienced and professional writers who have been in the academic writing
+                    industry
+                    for more than 5 years. We have helped thousands of students achieve their academic goals by
+                    delivering original, well-written, and timely assignments. .</p>
+            </div>
+            <div class="box">
+                <img src="assests/handShake2.png" alt="">
+                <h3>Trustworthy</h3>
+                <p>We are a team of experienced writers who have worked in various industries and understand the
+                    intricacies of your business.Our clients appreciate our
+                    dedication,
+                    reliability, and attention to detail</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="aboutUs">
+        <img src="assests/about.png" alt="Image error">
+        <div class="aboutPara">
+            <h2>About-Us</h2>
+            <p>AssignPro is a leading provider of high-quality assignments for students in the tech and commerce fields.
+                Our team of expert writers are dedicated to helping students succeed in their coursework.
+            </p>
+            <a class="learnMore" href="">Learn More</a>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <img class="footerCard" src="assests/logo-removebg-preview.png" alt="logo">
+        <ul class="footerCard">
+            <li><a href="#"></i> Home</a></li>
+            <li><a href="/aboutus">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="/contactus">Contact Us</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="termsandcondition">Terms and Condition</a></li>
+        </ul>
+        <ul class="footerCard">
+            <li class="footerAction">
+                <button class="whatsapp-container" onclick="openWhatsApp()">
+                    <i class="fa-brands fa-whatsapp fa-beat fa-2xl">
+                        &nbsp;&nbsp;</i> Chat via WhatsApp
+                </button>
+                <button class="call-container">
+                    <i class="fa-solid fa-phone fa-shake"></i>
+                    <a href="tel:">&nbsp;&nbsp;</a>Call now <!-- Write Phone number-->
+                </button>
+                <button class="mail-container">
+                    <i class="fas fa-mail-bulk"></i>
+                    <a href="mailto:">&nbsp;&nbsp;</a>Mail-Us<!--Write mail id-->
+
+                </button>
+
+                <!-- to amintain space -->
+            </li>
+        </ul>
+        <ul class="footerCard">
+            <h2>Social</h2>
+            <li> <i class="fa fa-facebook" aria-hidden="true"></i> </li>
+            <li> <i class="fa fa-instagram" aria-hidden="true"></i> </li>
+
+        </ul>
+        
+    </footer>
+
+
+    <div class="lastfooter ">
+        <p class="bodyCenter">&copy; 2023 assignPro. All rights reserved.</p>
+    </div>
 
     </div>
 
@@ -243,3 +296,5 @@
 
 
 <!-- You will see remove services list service card 30% Take a look at black shrink -->
+
+<!-- Intro in gradual representing form Apna college -->

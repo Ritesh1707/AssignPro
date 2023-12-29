@@ -1,0 +1,70 @@
+@media screen and (max-width: 992px) {
+  .newNav {
+    margin-bottom: 3rem;
+  }
+  .navToggle {
+    display: block;
+  }
+  .newNav ul {
+    display: none;
+  }
+
+  /* intro */
+  .intro {
+    gap: 0rem;
+    margin-bottom: 7rem;
+    flex-direction: column-reverse;
+  }
+  .main1 {
+    width: 80%;
+    align-self: center;
+    margin: 3rem;
+  }
+  .main2 {
+    width: 70%;
+    margin-bottom: 3rem;
+  }
+  .content {
+    margin-bottom: 1rem;
+  }
+
+  .box {
+    width: 30vw;
+  }
+  .question {
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+    padding-block: 6rem;
+  }
+  .commomQuestion {
+    width: 100%;
+    text-align: center;
+  }
+  .commomQuestion h3 {
+    font-size: 2rem;
+  }
+  /* WhyUs */
+  .whyUs {
+    gap: 2rem;
+    margin-block: 2rem 4rem;
+  }
+  .whyUsHeading {
+    margin-block: 8rem;
+  }
+  .aboutUs {
+    padding-inline: 6rem;
+    padding-block: 8rem;
+  }
+}
+
+@media screen and(max-width:767px) {
+  .content h2 {
+    /* margin: 0rem; */
+  }
+ 
+  .service-card{
+    width: 40%;
+  }
+}

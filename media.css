@@ -1,33 +1,44 @@
 @media screen and (max-width: 992px) {
-  .newNav {
-    margin-bottom: 3rem;
-  }
-  .navToggle {
+.main-nav{
+    position: relative;       
+    overflow: initial;
+}
+.nav-links{
+    position: absolute;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    left: -200%;
+    width: 100%;
+    margin-top: 20%;
+    padding-block: 50px;
+    transition-duration: .3s ;
+} 
+.active{
+    left: 0;
+}
+.nav-toggle{
     display: block;
-  }
-  .newNav ul {
-    display: none;
-  }
-
+    margin-right: 20px;
+}
   /* intro */
   .intro {
     gap: 0rem;
-    margin-bottom: 7rem;
-    flex-direction: column-reverse;
+    margin-block: 4rem 7rem;
+    /* flex-direction: column-reverse; */
   }
   .main1 {
-    width: 80%;
+    width: 35%;
     align-self: center;
     margin: 3rem;
   }
   .main2 {
-    width: 70%;
+    width: 50%;
     margin-bottom: 3rem;
   }
   .content {
     margin-bottom: 1rem;
   }
-
   .box {
     width: 30vw;
   }
@@ -57,14 +68,86 @@
     padding-inline: 6rem;
     padding-block: 8rem;
   }
+  .whatsapp-container,
+  .call-container,
+  .mail-container {
+    width: 10rem;
+  }
 }
 
-@media screen and(max-width:767px) {
-  .content h2 {
-    /* margin: 0rem; */
+@media screen and (max-width: 767px) {
+  .intro {
+    flex-direction: column-reverse;
   }
- 
-  .service-card{
+  .main1 {
+    width: 80%;
+  }
+  .main2 {
+    width: 70%;
+  }
+  .serviceSection {
+    gap: 2rem;
+  }
+  .service-card {
     width: 40%;
+  }
+  .whyUsHeading {
+    margin-block: 5rem;
+  }
+  .aboutUs{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-block: 2rem;
+  }
+  .aboutUs img{
+    width: 40%;
+  }
+  .aboutPara{
+    width: 80%;
+  }
+  .aboutPara p{
+    margin-bottom:3rem;
+  }
+  footer {
+    flex-direction: column;
+    align-content: center;
+    margin-block: 1rem;
+  }
+  .footerCard {
+    width: 40vw;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .intro {
+    margin-bottom: 2rem;
+  }
+  .content h2 {
+    margin-bottom: 2rem;
+  }
+  .whyUs {
+    flex-direction: column;
+    align-items: center;
+  }
+  .box {
+    width: 80%;
+  }
+  .aboutUs {
+    flex-direction: column;
+    align-items: center;
+  }
+  .aboutUs img {
+    width: 80%;
+  }
+  .aboutPara {
+    width: 100%;
+  }
+  .learnMore {
+    padding: 1rem;
+  }
+  footer {
+    flex-direction: column;
   }
 }

@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
 
     <style>
         body {
@@ -26,23 +28,28 @@
 <body>
 
     <header>
-        <nav class="newNav ">
-            <a href="indexFinal.html">
-                <img src="assests/logo.png" alt="">
-            </a>
-            <ul>
-                <li class="center"><a href="#">About us</a></li>
-
-                <li><a href="">Home</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Pricing</a></li>
-                <li><a href="">Contact-us</a></li>
-                <li><a href="">About-us</a></li>
-            </ul>
-            <a href="#" class="navToggle">
-                <i class="fa-solid fa-bars fa-2xl"></i>
-            </a>
+        <nav>
+            <div class="main-nav  flex">
+                <div class="logo">
+                    <a href="index.html"><img src="assests/logo-removebg-preview.png" alt=""></a>
+                </div>
+    
+                <div class="flex">
+                    <ul class="nav-links flex" id="nav-links">
+                        <li><a href="#" class="hover-links"> Products </a></li>
+                        <li><a href="#" class="hover-links"> Customers </a></li>
+                        <li><a href="#" class="hover-links"> Pricing </a></li>
+                        <li><a href="#" class="hover-links"> Resources </a></li>
+                        <li><a href="#" class="hover-links"> Sign in </a></li>
+                        <li><a href="#" class="hover-links"> Sign up </a></li>
+                    </ul>
+                    <a href="#" class="nav-toggle hover-links" id="nav-toggle">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
+                </div>
+            </div>
         </nav>
+
     </header>
 
 
@@ -72,24 +79,7 @@
         </div>
 
 
-        <!--WhatsApp JS  -->
-        <!--  -->
-        <!--  -->
-        <script>
-            function openWhatsApp() {
-                // Replace '123456789' with the actual phone number you want to chat with
-                var phoneNumber = '123456789';
 
-                // Create the WhatsApp URL
-                var whatsappURL = 'https://wa.me/' + phoneNumber;
-
-                // Open the WhatsApp chat in a new tab
-                window.open(whatsappURL, '_blank');
-            }
-        </script>
-        <!--  -->
-        <!--  -->
-        <!--  -->
 
 
         <!-- <div class="main2">
@@ -148,10 +138,7 @@
                 <img src="assests/business2.jpg" alt="">
                 <p>Social Content writing</p>
             </div>
-            <div>
 
-
-            </div>
         </div>
     </section>
 
@@ -246,7 +233,7 @@
     <footer>
         <img class="footerCard" src="assests/logo-removebg-preview.png" alt="logo">
         <ul class="footerCard">
-            <li><a href="#"></i> Home</a></li>
+            <li><a href="#"> Home</a></li>
             <li><a href="/aboutus">About Us</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="/contactus">Contact Us</a></li>
@@ -257,7 +244,7 @@
             <li class="footerAction">
                 <button class="whatsapp-container" onclick="openWhatsApp()">
                     <i class="fa-brands fa-whatsapp fa-beat fa-2xl">
-                        &nbsp;&nbsp;</i> Chat via WhatsApp
+                        &nbsp;&nbsp;</i>Chat Now
                 </button>
                 <button class="call-container">
                     <i class="fa-solid fa-phone fa-shake"></i>
@@ -278,7 +265,7 @@
             <li> <i class="fa fa-instagram" aria-hidden="true"></i> </li>
 
         </ul>
-        
+
     </footer>
 
 
@@ -289,12 +276,11 @@
     </div>
 
     </div>
-</body>
 
+<script src="script.js"></script>    
+</body>
 </html>
 
 
-
-<!-- You will see remove services list service card 30% Take a look at black shrink -->
 
 <!-- Intro in gradual representing form Apna college -->

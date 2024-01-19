@@ -16,6 +16,7 @@
 } 
 .active{
     left: 0;
+    top: 0;
 }
 .nav-toggle{
     display: block;
@@ -75,15 +76,21 @@
   }
 }
 
+
+
+
 @media screen and (max-width: 767px) {
   .intro {
     flex-direction: column-reverse;
   }
   .main1 {
-    width: 80%;
+    width: 90%;
   }
   .main2 {
-    width: 70%;
+    width: 90%;
+  }
+  .thirdhalf{
+    width: 80%;
   }
   .serviceSection {
     gap: 2rem;
@@ -91,7 +98,16 @@
   .service-card {
     width: 40%;
   }
+
+  .question{
+    padding-block: 3rem;
+    padding-inline: 0rem;
+  }
+  .realQuestion{
+    width: 75%;
+  }
   .whyUsHeading {
+    font-size: 2rem;
     margin-block: 5rem;
   }
   .aboutUs{
@@ -99,6 +115,8 @@
     align-items: center;
     text-align: center;
     margin-block: 2rem;
+    padding-block: 8rem;
+    padding-inline: 0;
   }
   .aboutUs img{
     width: 40%;
@@ -120,34 +138,78 @@
   }
 }
 
+
+
 @media screen and (max-width: 479px) {
-  .intro {
-    margin-bottom: 2rem;
+  .intro{
+    margin-bottom: 0 ;
+  }
+  .main1{
+    margin-bottom: 1rem;
+  }
+  .firstHalf{
+    /* font-size: 1.5rem; */
+    font-size: 2rem;
+  }
+  .whatsapp-container, .call-container{
+    width: 100%;
+  }
+  .thirdhalf{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vh;
+  }
+  .main2{
+    width: 100%;
+    margin-bottom:0;
   }
   .content h2 {
-    margin-bottom: 2rem;
+    /* margin-top: 0;
+    margin-bottom: 1.5rem; */
+    margin-block: 0 1.5rem; 
+    font-size: 2rem;
+    font-size: 1.8rem;
   }
+  .services h2{
+    font-size: 2rem;
+  }
+  
   .whyUs {
     flex-direction: column;
     align-items: center;
   }
+  .whyUsHeading{
+    font-size: 2rem;
+    margin-inline: 0;
+  }
   .box {
     width: 80%;
   }
-  .aboutUs {
-    flex-direction: column;
-    align-items: center;
+  .realQuestion{
+    width: 90%;
   }
-  .aboutUs img {
-    width: 80%;
+  .realQuestion h3{
+    font-size: 1.5rem;
   }
-  .aboutPara {
+  .realQuestion p{
+    font-size: 1rem;
+  }
+  .whyUsHeading{
+    font-size: 1.5rem;
+  }
+  .aboutUs{
+    padding-block: 3rem;
+  }
+  .learnMore{
+    display: block;
     width: 100%;
-  }
-  .learnMore {
-    padding: 1rem;
+    align-items: center;
   }
   footer {
     flex-direction: column;
+  }
+  footer .whatsapp-container, .call-container, .mail-container{
+    width: 100%;
   }
 }

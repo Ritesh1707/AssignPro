@@ -153,6 +153,47 @@ a{
 }
 
 
+
+
+
+
+
+/* .firstHalf {
+    font-size: 2.5rem;
+    font-weight: 600;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid #000; 
+    margin: 0;  
+    padding: 0;  
+    display: inline-block; 
+    animation: typing 5s steps(30, end) forwards; 
+  }
+  @keyframes typing {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+  } */
+  
+
+  /* 0%   {width: 0;}
+  25%  {width: 20%;}
+  50%  {width: 40%;}
+  75%  {width: 60%;}
+  100% {width: 100%;} */
+
+
+
+
+
+
+
+
+
+
 .thirdhalf {
   display: flex;
   justify-content: space-between;
@@ -261,7 +302,7 @@ margin-block: 5rem;
 }
 .services h2 {
   text-align: center;
-  font-size: xxx-large;
+  font-size: 3rem;
   margin-bottom: 3rem;
 }
 .serviceSection {
@@ -284,10 +325,11 @@ margin-block: 5rem;
   border-radius: 5px;
 }
 
-.service-card p {
+.service-card h3 {
   font-size: large;
+  font-weight: 450;
   text-align: center;
-  padding: 20px;
+  padding-block: 20px;
 }
 
 
@@ -373,6 +415,9 @@ margin-block: 5rem;
   font-weight: 00;
   font-size: x-large;
 }
+.box p{
+    text-align: center;
+}
 .box:hover{
     transform: translate(0px, -10px);
     box-shadow: 1px 1px 10px grey;
@@ -427,7 +472,7 @@ footer{
   flex-wrap: wrap;
   height: auto;
   text-align: right;
-  padding-block: 3rem;
+  margin-block: 3rem;
   gap: 2rem;
 }
 .footerCard{
